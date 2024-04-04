@@ -1,0 +1,593 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    color: black;
+    height: auto;
+    width: 100%;
+}
+
+.nav-bar {
+    position: sticky;
+    background-color: rgba(197, 6, 6, 0.906);
+    color: white;
+    border-color: 3px solid whitesmoke;
+    height: 80px;
+    width: 100%;
+
+
+
+}
+
+.nav-bar label {
+    color: #fff;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+.nav-bar ul {
+    float: right;
+    margin-right: 20px;
+
+}
+
+.nav-bar ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+
+}
+
+.nav-bar ul li a {
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+.nav-bar ul li a:hover {
+    background: silver;
+    color: black;
+    transition: .5s;
+
+}
+
+.nav-bar2 {
+    position: sticky;
+    background-color: rgba(239, 232, 232, 0.906);
+    /*color:black;*/
+    border-color: 3px solid whitesmoke;
+    height: 50px;
+    width: 100%;
+}
+
+.nav-bar2 ul {
+    float: right;
+    margin-right: 100px;
+
+}
+
+.nav-bar2 ul li {
+    display: inline-block;
+    line-height: 50px;
+    margin: 0 5px;
+
+}
+
+.nav-bar2 ul li a {
+    color: black;
+    font-size: 15px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+.nav-bar2 ul li a:hover {
+    background: silver;
+    color: black;
+    transition: .5s;
+
+}
+
+.main-body {
+    height: 430px;
+    background-image: url(unicersity2.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.main-body h1 {
+    width: 100%;
+    height: 100%;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    color: #fff;
+}
+
+.second-body {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+
+.second-body1 {
+    width: 33.33%;
+    align-items: center;
+    margin: 0px;
+    width: 100%;
+    height: 250px;
+}
+
+.second-body1 h1 {
+    font-size: 50px;
+    color: rgb(94, 94, 193);
+}
+
+.second-body1 h1,
+p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    font-family: cursive;
+}
+
+#third-main {
+    background-color: whitesmoke;
+    height: 950px;
+}
+
+#third-main h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 40px;
+    margin-left: 40%;
+}
+
+.third-body {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+    margin-top: 30px;
+}
+
+.third-main1 {
+    background-color: white;
+    color: #000;
+    width: 30.33%;
+    border: 1px solid black;
+    align-items: center;
+    margin: 15px;
+    width: 100%;
+    height: 550px;
+}
+
+.img {
+    height: 300px;
+    background-image: url(student1.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-bottom: black;
+}
+
+.img h1 {
+    font-family: Georgia;
+    width: 100%;
+    height: 100%;
+    font-size: 40px;
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    align-items: end;
+    color: #000;
+}
+
+.clickable-div {
+    margin: 0 50px ;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgba(197, 6, 6, 0.906);
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.clickable-div:hover {
+    background-color: #0056b3;
+}
+.third-main2 {
+    background-color: white;
+    color: #000;
+    width: 30.33%;
+    border: 1px solid black;
+    align-items: center;
+    margin: 15px;
+    width: 100%;
+    height: 550px;
+}
+
+.img2 {
+    height: 300px;
+    background-image: url(student3.webp);
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-bottom: black;
+}
+
+.img2 h1 {
+    font-family: Georgia;
+    width: 100%;
+    height: 100%;
+    font-size: 40px;
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    align-items: end;
+    color: black;
+}
+
+.third-main3 {
+    background-color: white;
+    color: #000;
+    width: 30.33%;
+    border: 1px solid black;
+    align-items: center;
+    margin: 15px;
+    width: 100%;
+    height: 550px;
+}
+
+.img3 {
+    height: 300px;
+    background-image: url(finance.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-bottom: black;
+}
+
+.img3 h1 {
+    font-family: Georgia;
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    align-items: end;
+    color: black;
+}
+.second-part {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+.second1{
+    display: inline;
+    background-color: whitesmoke;
+    border:2px soild black;
+    width: 30%;
+    align-items: center;
+    margin: 0px;
+   
+    height: 250px;
+}
+.second1 img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    margin-top: 50px;
+ }
+ .second2{
+    display: inline;
+    background-image: url(university20.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-bottom: black;
+    border:2px soild black;
+    width: 30%;
+    align-items: center;
+    margin: 40px;
+    height: 250px;
+}
+.second2 h1 {
+    color: #000;
+    font-size: 20px;
+    font-weight: 100;
+    margin-right: 10px;
+}
+.second2 hr{
+    color: #000;
+}
+.second2 p{
+    color: #fff;
+    font-weight: 200px;
+    font-family:  sans-serif;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.go-inside,.go-outside{
+    display: inline-block;
+      padding: 10px 20px;
+      color: black; /* Default color */
+      text-decoration: none;
+      background-color: white; /* Default background color */
+
+}
+.go-inside,.go-outside:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  .clicked {
+   background-color:  gray; /* Gray color when clicked */
+    border-bottom: 2px solid skyblue; /* Sky blue bottom border when clicked */
+  }
+.photos {
+    display: none; /* Initially hide both sets of photos */
+  }
+  #inside-photos {
+    display: block; /* Show inside photos by default */
+  }
+.photos img{
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+    height: 400px;
+    margin-top: 20px;
+    object-fit: cover;
+
+}
+.news-body{
+    background-image: url(city-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 900px;
+    width: 100%;
+    margin-top: 500px;
+    
+}
+.news-body h1{
+    color: white;
+    padding-left: 40%;
+    padding-top: 5%;
+}
+.news,.event{
+    background-color: white;
+    width: 43%;
+    height: 680px;
+    padding: 30px;
+    margin: 40px;
+    align-items: center;
+    border-top: 4px solid red;
+    float: left;
+}
+.news h3{
+    color: rgb(78, 4, 4);
+    margin: 0;
+    padding: 0;
+}
+.news p a{
+    color: gray;
+    margin: 185px;
+}
+.news h3 i{
+    color: grey;
+}
+.news h3 p{
+    display: inline-block;
+}
+.news h3,
+    .news p {
+      display: inline;
+     /* Remove default margin */
+}
+.event h3{
+    color: rgb(78, 4, 4);
+    margin: 0;
+    padding: 0;
+}
+.event p a{
+    color: gray;
+    margin: 185px;
+}
+.event h3 i{
+    color: grey;
+}
+.event h3 p{
+    display: inline-block;
+}
+.event h3,
+    .event p {
+      display: inline;
+     /* Remove default margin */
+}
+.photo{
+    background-image: url(degrii2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+    width: 100%;
+    margin-top: 10px;
+}
+.photo h1{
+    color: #fff;
+    padding-left: 0;
+    padding-top: 150px;
+}
+.news .para{
+    font-family: serif;
+}
+.para{
+    margin-top: 10px;
+    color: rgb(86, 84, 84);
+    font-size: 17px;
+}
+
+.photo1{
+    background-image: url(rearch.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+    width: 100%;
+    margin-top: 10px;
+}
+.photo1 h1{
+    color: rgb(68, 65, 65);
+    padding-left: 0;
+    padding-top: 150px;
+}
+
+
+.news2{
+    height: 200px;
+    background-color: #021e3c;
+    color: #fff;
+    text-align: center;
+}
+.news2 h1 
+{
+    
+    padding: 0px;
+    padding-top: 20px;
+}
+news23{
+    color: #fff;
+}
+.news2 a{
+    display: inline-block;
+    color: #fff;
+    padding: 5px;
+    margin-left: 10px;
+}
+.news2 a:hover{
+    text-decoration: underline;
+}
+
+.news3{
+    height:300px;
+    background-color: #3069a6;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.news101{
+    height: 300px;
+    width: 50%;
+}
+.news101  a{
+    display: flex;
+    text-align: center;
+    color: #fff;
+    padding-left: 50px;
+    padding-top: 25px;
+}
+.news101  a:hover{
+    text-decoration: underline;
+}
+.news102{
+    height: 300px;
+    width: 25%;
+}
+.news102  a{
+    display: flex;
+    text-align: center;
+    color: #fff;
+    padding-left: 50px;
+    padding-top: 25px;
+}
+.news102  a:hover{
+    text-decoration: underline;
+}
+.news103{
+    height: 300px;
+    width: 25%;
+}
+.news103  a{
+    display: flex;
+    text-align: center;
+    color: #fff;
+    padding-left: 50px;
+    padding-top: 25px;
+}
+.news103  a:hover{
+    text-decoration: underline;
+}
+.footer{
+    height: 100px;
+    width: 100%;
+    background-color: #021e3c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.footer1{
+    width: 50%;
+    height: 100px;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+
+
+}
+.footer1 a{
+    color: #fff;
+    padding-top: 5px;
+    display: inline-block;
+    margin: 0 10px;
+}
+.footer1 a:hover{
+    text-decoration: underline;
+}
+.footer2{
+    width: 50%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.footer2 a i{
+    color: #fff;
+    margin: 10px;
+    font-size: 25px;
+
+}
+.footer2 a i:hover{
+    color: gray;
+}
