@@ -1,0 +1,965 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fresnostate.edu</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+          * {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    color: black;
+    height: auto;
+    width: 100%;
+}
+
+.nav-bar {
+    position: sticky;
+    background-color: rgba(197, 6, 6, 0.906);
+    color: white;
+    border-color: 3px solid whitesmoke;
+    height: 80px;
+    width: 100%;
+
+
+
+}
+
+.nav-bar label {
+    color: #fff;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+.nav-bar ul {
+    float: right;
+    margin-right: 20px;
+
+}
+
+.nav-bar ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+
+}
+
+.nav-bar ul li a {
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+.nav-bar ul li a:hover {
+    background: silver;
+    color: black;
+    transition: .5s;
+
+}
+
+.nav-bar2 {
+    position: sticky;
+    background-color: rgba(239, 232, 232, 0.906);
+    /*color:black;*/
+    border-color: 3px solid whitesmoke;
+    height: 50px;
+    width: 100%;
+}
+
+.nav-bar2 ul {
+    float: right;
+    margin-right: 100px;
+
+}
+
+.nav-bar2 ul li {
+    display: inline-block;
+    line-height: 50px;
+    margin: 0 5px;
+
+}
+
+.nav-bar2 ul li a {
+    color: black;
+    font-size: 15px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+.nav-bar2 ul li a:hover {
+    background: silver;
+    color: black;
+    transition: .5s;
+
+}
+
+.main-body {
+    height: 430px;
+    background-image: url(unicersity2.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.main-body h1 {
+    width: 100%;
+    height: 100%;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    color: #fff;
+}
+
+.second-body {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+
+.second-body1 {
+    width: 33.33%;
+    align-items: center;
+    margin: 0px;
+    width: 100%;
+    height: 250px;
+}
+
+.second-body1 h1 {
+    font-size: 50px;
+    color: rgb(94, 94, 193);
+}
+
+.second-body1 h1,
+p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    font-family: cursive;
+}
+
+#third-main {
+    background-color: whitesmoke;
+    height: 950px;
+}
+
+#third-main h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 40px;
+    margin-left: 40%;
+}
+
+.third-body {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+    margin-top: 30px;
+}
+
+.third-main1 {
+    background-color: white;
+    color: #000;
+    width: 30.33%;
+    border: 1px solid black;
+    align-items: center;
+    margin: 15px;
+    width: 100%;
+    height: 550px;
+}
+
+.img {
+    height: 300px;
+    background-image: url(student1.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-bottom: black;
+}
+
+.img h1 {
+    font-family: Georgia;
+    width: 100%;
+    height: 100%;
+    font-size: 40px;
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    align-items: end;
+    color: #000;
+}
+
+.clickable-div {
+    margin: 0 50px ;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgba(197, 6, 6, 0.906);
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.clickable-div:hover {
+    background-color: #0056b3;
+}
+.third-main2 {
+    background-color: white;
+    color: #000;
+    width: 30.33%;
+    border: 1px solid black;
+    align-items: center;
+    margin: 15px;
+    width: 100%;
+    height: 550px;
+}
+
+.img2 {
+    height: 300px;
+    background-image: url(student3.webp);
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-bottom: black;
+}
+
+.img2 h1 {
+    font-family: Georgia;
+    width: 100%;
+    height: 100%;
+    font-size: 40px;
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    align-items: end;
+    color: black;
+}
+
+.third-main3 {
+    background-color: white;
+    color: #000;
+    width: 30.33%;
+    border: 1px solid black;
+    align-items: center;
+    margin: 15px;
+    width: 100%;
+    height: 550px;
+}
+
+.img3 {
+    height: 300px;
+    background-image: url(finance.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-bottom: black;
+}
+
+.img3 h1 {
+    font-family: Georgia;
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    align-items: end;
+    color: black;
+}
+.second-part {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+.second1{
+    display: inline;
+    background-color: whitesmoke;
+    border:2px soild black;
+    width: 30%;
+    align-items: center;
+    margin: 0px;
+   
+    height: 250px;
+}
+.second1 img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    margin-top: 50px;
+ }
+ .second2{
+    display: inline;
+    background-image: url(university20.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-bottom: black;
+    border:2px soild black;
+    width: 30%;
+    align-items: center;
+    margin: 40px;
+    height: 250px;
+}
+.second2 h1 {
+    color: #000;
+    font-size: 20px;
+    font-weight: 100;
+    margin-right: 10px;
+}
+.second2 hr{
+    color: #000;
+}
+.second2 p{
+    color: #fff;
+    font-weight: 200px;
+    font-family:  sans-serif;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.go-inside,.go-outside{
+    display: inline-block;
+      padding: 10px 20px;
+      color: black; /* Default color */
+      text-decoration: none;
+      background-color: white; /* Default background color */
+
+}
+.go-inside,.go-outside:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  .clicked {
+   background-color:  gray; /* Gray color when clicked */
+    border-bottom: 2px solid skyblue; /* Sky blue bottom border when clicked */
+  }
+.photos {
+    display: none; /* Initially hide both sets of photos */
+  }
+  #inside-photos {
+    display: block; /* Show inside photos by default */
+  }
+.photos img{
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+    height: 400px;
+    margin-top: 20px;
+    object-fit: cover;
+
+}
+.news-body{
+    background-image: url(city-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 900px;
+    width: 100%;
+    margin-top: 500px;
+    
+}
+.news-body h1{
+    color: white;
+    padding-left: 40%;
+    padding-top: 5%;
+}
+.news,.event{
+    background-color: white;
+    width: 43%;
+    height: 680px;
+    padding: 30px;
+    margin: 40px;
+    align-items: center;
+    border-top: 4px solid red;
+    float: left;
+}
+.news h3{
+    color: rgb(78, 4, 4);
+    margin: 0;
+    padding: 0;
+}
+.news p a{
+    color: gray;
+    margin: 185px;
+}
+.news h3 i{
+    color: grey;
+}
+.news h3 p{
+    display: inline-block;
+}
+.news h3,
+    .news p {
+      display: inline;
+     /* Remove default margin */
+}
+.event h3{
+    color: rgb(78, 4, 4);
+    margin: 0;
+    padding: 0;
+}
+.event p a{
+    color: gray;
+    margin: 185px;
+}
+.event h3 i{
+    color: grey;
+}
+.event h3 p{
+    display: inline-block;
+}
+.event h3,
+    .event p {
+      display: inline;
+     /* Remove default margin */
+}
+.photo{
+    background-image: url(degrii2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+    width: 100%;
+    margin-top: 10px;
+}
+.photo h1{
+    color: #fff;
+    padding-left: 0;
+    padding-top: 150px;
+}
+.news .para{
+    font-family: serif;
+}
+.para{
+    margin-top: 10px;
+    color: rgb(86, 84, 84);
+    font-size: 17px;
+}
+
+.photo1{
+    background-image: url(rearch.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+    width: 100%;
+    margin-top: 10px;
+}
+.photo1 h1{
+    color: rgb(68, 65, 65);
+    padding-left: 0;
+    padding-top: 150px;
+}
+
+
+.news2{
+    height: 200px;
+    background-color: #021e3c;
+    color: #fff;
+    text-align: center;
+}
+.news2 h1 
+{
+    
+    padding: 0px;
+    padding-top: 20px;
+}
+news23{
+    color: #fff;
+}
+.news2 a{
+    display: inline-block;
+    color: #fff;
+    padding: 5px;
+    margin-left: 10px;
+}
+.news2 a:hover{
+    text-decoration: underline;
+}
+
+.news3{
+    height:300px;
+    background-color: #3069a6;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.news101{
+    height: 300px;
+    width: 50%;
+}
+.news101  a{
+    display: flex;
+    text-align: center;
+    color: #fff;
+    padding-left: 50px;
+    padding-top: 25px;
+}
+.news101  a:hover{
+    text-decoration: underline;
+}
+.news102{
+    height: 300px;
+    width: 25%;
+}
+.news102  a{
+    display: flex;
+    text-align: center;
+    color: #fff;
+    padding-left: 50px;
+    padding-top: 25px;
+}
+.news102  a:hover{
+    text-decoration: underline;
+}
+.news103{
+    height: 300px;
+    width: 25%;
+}
+.news103  a{
+    display: flex;
+    text-align: center;
+    color: #fff;
+    padding-left: 50px;
+    padding-top: 25px;
+}
+.news103  a:hover{
+    text-decoration: underline;
+}
+.footer{
+    height: 100px;
+    width: 100%;
+    background-color: #021e3c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.footer1{
+    width: 50%;
+    height: 100px;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+
+
+}
+.footer1 a{
+    color: #fff;
+    padding-top: 5px;
+    display: inline-block;
+    margin: 0 10px;
+}
+.footer1 a:hover{
+    text-decoration: underline;
+}
+.footer2{
+    width: 50%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.footer2 a i{
+    color: #fff;
+    margin: 10px;
+    font-size: 25px;
+
+}
+.footer2 a i:hover{
+    color: gray;
+}
+#scrollToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 24px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+
+/*________________media quearys ------------------------------------------------*/
+
+
+@media screen and (max-width: 1024px) {
+    /* Adjustments for tablets */
+
+    /* For example, you can modify the navigation bar */
+    .nav-bar ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* You can continue making adjustments as needed */
+}
+
+/* Media query for smaller tablets and large phones */
+@media screen and (max-width: 768px) {
+    /* Adjustments for smaller tablets and large phones */
+
+    /* For example, you can adjust the font size */
+    h1 {
+        font-size: 24px;
+    }
+
+    /* Adjustments for the navigation bar */
+    .nav-bar {
+        /* Example adjustments */
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Adjustments for the main body */
+    .main-body {
+        padding: 20px;
+    }
+
+    /* You can continue making adjustments as needed */
+}
+
+/* Media query for mobile devices */
+@media screen and (max-width: 480px) {
+    /* Adjustments for mobile devices */
+
+    /* For example, you can further adjust font sizes */
+    h1 {
+        font-size: 20px;
+    }
+
+    /* Adjustments for the navigation bar */
+    .nav-bar {
+        /* Example adjustments */
+        padding: 10px;
+    }
+
+    /* Adjustments for the main body */
+    .main-body {
+        padding: 10px;
+    }
+
+    /* You can continue making adjustments as needed */
+}
+
+        </style>
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    </head>
+    <body>
+        <nav class="nav-bar">
+            <label>FRESNOSTATE</label>
+            <ul>
+                <li><a href>Future Student</a></li>
+                <li><a href>Current Student</a></li>
+                <li><a href>Faculty/Staff</a></li>
+                <li><a href>QUICK LINKS</a></li>
+            </ul>
+        </nav>
+        <nav class="nav-bar2">
+            <ul>
+                <li><a href><i class="fa-solid fa-house"></i></a></li>
+                <li><a href>About Us</a></li>
+                <li><a href>Admission</a></li>
+                <li><a href>Academic</a></li>
+                <li><a href>Student Life</a></li>
+                <li><a href>Research</a></li>
+                <li><a href>Athletic</a></li>
+                <li><a href>Give</a></li>
+                <li><a href="#">COVID-19</a></li>
+            </ul>
+        </nav>
+        <div class="main-body">
+            <h1>Write your own success story.</h1>
+        </div>
+        <div class="second-body">
+            <div class="second-body1">
+                <h1>300,000</h1>
+                <p><b>Over 300,000 Bulldog alumni have<br> graduated from Fresno
+                        State.</b></p>
+            </div>
+            <div class="second-body1">
+                <h1>No. 26</h1>
+                <p><b>Ranked No. 26 among universities<br> nationwide in
+                        Washington<br> Monthly.</b></p>
+            </div>
+            <div class="second-body1">
+                <h1>80%</h1>
+                <p><b>80% of Fresno State<br> undergraduate students receive
+                        <br>financial aid.</b></p>
+            </div>
+        </div>
+
+        <div id="third-main">
+            <h1>Discover Fresno State</h1>
+
+            <div class="third-body">
+
+                <div class="third-main1">
+                    <div class="img">
+                        <h1>Academics</h1>
+                    </div>
+                    <div class="paragraph">
+                        <p>Fresno State’s eight schools and colleges<br> offer
+                            72 undergraduate, 49 post-<br>baccalaureate and
+                            three doctoral degree <br> programs that emphasize
+                            hands-on learning experiences designed to
+                            prepare<br> you for success after graduation.</p>
+                    </div>
+                    <br><br>
+
+                    <a href="#" class="clickable-div">Explor our acdemic
+                        programs
+                        <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+
+                <div class="third-main2">
+                    <div class="img2">
+                        <h1>Athletics</h1>
+                    </div>
+                    <div class="paragraph">
+                        <p>Show the Valley the strength of the Red <br>
+                            Wave by supporting your Bulldogs.</p>
+                    </div>
+                    <br><br>
+                    <br><br>
+                    <br><br>
+                    <a href="#" class="clickable-div">See the full schedule
+                        <i class="fa-solid fa-arrow-right"></i></a>
+
+                </div>
+
+                <div class="third-main3">
+                    <div class="img3">
+                        <h1>Financial Aid</h1>
+                    </div>
+                    <div class="paragraph">
+                        <p>The process for the Free Application for<br> Federal
+                            Student Aid (FAFSA) has changed!<br> Please review
+                            the FAFSA Simplification<br> page for information.
+                            The priority deadline<br> to apply is May 2.</p>
+                    </div>
+                    <br><br>
+                    <br>
+                    <a href="#" class="clickable-div">FAFSA information
+                        <i class="fa-solid fa-arrow-right"></i></a>
+
+                </div>
+            </div>
+
+            <div class="second-part">
+                <div class="second1">
+                    <p>
+                        <img src="girl1.jpg" alt>
+                        <i class="fa-solid fa-comment"></i>
+                        "During this journey I<br> encountered many
+                        challenges,<br> but the desire to accomplish <br>my
+                        goals, and the wonderful <br>people I met along the
+                        way<br> pushed me through."
+                        <br><br> <br><br>
+                        ----Llaymin Pimentel | class of 2024</p>
+                </div>
+                <div class="second2">
+                    <h1>Construction in Progress</h1>
+                    <hr>
+                    <p>The Central Utility Plant Replacement is<br> underway to
+                        modernize and maintain Fresno<br> State’s central
+                        utility infrastructure system. Click<br> on the map for
+                        construction locations.</p>
+                    <br>
+                    <a href="#" class="clickable-div">See Map
+                        <i class="fa-solid fa-arrow-right"></i></a>
+
+                </div>
+            </div>
+
+            <div class="links">
+                <a href="#" onclick="showInside()" class="go-inside">Go
+                    Inside</a> <!-- Link to show inside photos -->
+                <a href="#" onclick="showOutside()" class="go-outside">Go
+                    Outside</a> <!-- Link to show outside photos -->
+            </div>
+
+            <div id="inside-photos" class="photos">
+                <!-- Inside photos go here -->
+                <img src="inside1.avif" alt="Inside Photo 1">
+                <img src="inside2.avif" alt="Inside Photo 2">
+                <img src="inside3.avif" alt="Inside Photo 3">
+            </div>
+
+            <div id="outside-photos" class="photos">
+                <!-- Outside photos go here -->
+                <img src="outside1.avif" alt="Outside Photo 1">
+                <img src="outside2.avif" alt="Outside Photo 2">
+                <img src="outside3.avif" alt="Outside Photo 3">
+            </div>
+        </div>
+
+        <div class="news-body">
+            <h1>News and Events</h1>
+
+            <div class="news">
+                <h3>LATEST NEWS<i class="fa-solid fa-wifi"></i></h3>
+                <p><a href="#">See All News<i
+                            class="fa-solid fa-arrow-right"></i></a></p>
+                <hr>
+                <div class="photo">
+                    <h1>Fresno State Set 2024<br>Commencement Schedule</h1>
+                </div>
+                <br><br>
+                <p class="para">As the leading producer of bachelor’s degrees
+                    annually in the Central Valley of California, Fresno State
+                    will host a lineup of annual festivities to recognize
+                    thousands of graduates and create a lively atmosphere across
+                    the campus and throughout the community as their families
+                    and friends join them to celebrate. Commencement ceremonies
+                    for Fresno State’s eight colleges and schools, along with
+                    several affinity celebrations, will take place May 17
+                    through 19.</p>
+                <br><br>
+                <p class="para">“Commencement transcends mere ceremony; it
+                    symbolizes the pinnacle of academic accomplishment and pays
+                    homage to the unwavering determination and perseverance of
+                    our graduates,” said Dr. Kent Willis, vice president for
+                    Student Affairs and Enrollment Management at Fresno State.
+                </p>
+
+            </div>
+
+            <div class="event">
+                <h3>COMING UP<i class="fa-solid fa-wifi"></i></h3>
+                <p><a href="#">See All Events<i
+                            class="fa-solid fa-arrow-right"></i></a></p>
+                <hr>
+                <div class="photo1">
+                    <h1>Fresno State Set 2024<br>Commencement Schedule</h1>
+                </div>
+                <br><br>
+                <p class="para"><b>03/29-30</b><i
+                        class="fa-solid fa-arrow-right"></i> Bulldoggers Home
+                    Rodeo<br><br>
+                    <b> 04/01</b><i class="fa-solid fa-arrow-right"></i> Campus
+                    closed: Cesar Chavez holiday<br>
+                    <b>04/02 </b><i
+                        class="fa-solid fa-arrow-right"></i>Registration
+                    Deadline: Brewing Basics Course<br>
+                    <b> 04/03 </b><i class="fa-solid fa-arrow-right"></i>Central
+                    California Research Symposium<br>
+                    <b> 04/05</b> <i class="fa-solid fa-arrow-right"></i>Author
+                    Reading: Cynthia Guardado<br><br>
+                    <b> 04/05-12 </b><i
+                        class="fa-solid fa-arrow-right"></i>Interior Design
+                    Exhibition<br><br>
+                    <b>04/05-14</b><i class="fa-solid fa-arrow-right"></i> Free
+                    Tax Preparation<br><br>
+                    <b> 04/05</b><i class="fa-solid fa-arrow-right"></i>
+                    Multimedia: “Promises of Our Grandmothers”<br>
+                    <b> 04/05</b> <i
+                        class="fa-solid fa-arrow-right"></i>Keyboard Concert:
+                    Joyce Yang</p>
+
+            </div>
+
+        </div>
+
+        <div class="news2">
+            <h1>News/Events Sources</h1>
+            <hr class="news23">
+            <br><br>
+            <a href="#">Fresno State News</a>
+            <a href="#">Fresno State Magazine</a>
+            <a href="#">Bulldog Blog</a>
+            <br><br><br>
+            <a href="#">Fresno State Stories</a>
+            <a href="#">Campus Newsletter</a>
+            <a href="#">The Collegian</a>
+        </div>
+
+        <div class="news3">
+            <div class="news101">
+
+                <a href="#"><b>CALIFORNIA STATE UNIVERSITY, FRESNO</b></a><br>
+                <a href="#">5241 N. Maple Ave.</a>
+                <a href="#">Fresno, CA 93740</a>
+                <a href="#">P 559.278.4240</a><br>
+                <a href="#">Campus Police: 559.278.8400</a><br>
+
+            </div>
+
+            <div class="news102">
+
+                <a href>Accessibility</a>
+                <a href>Comment Form</a>
+                <a href>COVID-19 Updates</a>
+                <a href>Disclaimer</a>
+            </div>
+
+            <div class="news103">
+
+                <a href>Emergencies</a>
+                <a href>Opportunities for All</a>
+                <a href>Title IX Compliance</a>
+                <a href>WSCUC</a>
+            </div>
+
+        </div>
+
+        <div class="footer">
+            <div class="footer1">
+                <a href="#">© Fresno State 2024</a><br>
+
+                <a href="#">Last Updated Mar 29, 2024</a>
+            </div>
+            <div class="footer2">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com/BhushanNegi333"><i
+                        class="fa-brands fa-square-x-twitter"></i></a>
+                <a href="https://www.instagram.com/bhushannegi333/"><i
+                        class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a
+                    href="https://www.linkedin.com/in/bharatbhushan-negi-a82a2324b/s"><i
+                        class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-solid fa-hand-holding-dollar"></i></a>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+
+    </body>
+</html>
