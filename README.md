@@ -7,17 +7,7 @@ This project is a clone of the Fresno State University website.
 Description
 The purpose of this project is to practice frontend web development skills by recreating the frontend layout and design of the Fresno State University website.
 
-Installation
-Clone the repository:
 
-bash
-Copy code
-git clone https://github.com/bhushannegi333/website-clone.git
-Navigate to the project directory:
-
-bash
-Copy code
-cd website-clone
 Usage
 Open the index.html file in your web browser to view the website clone.
 Dependencies
